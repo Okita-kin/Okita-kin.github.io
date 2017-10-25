@@ -1,0 +1,44 @@
+# Site settings
+title: 冲田 瑾
+url: "http://Okita-kin.github.io"    # the protocol and hostname of your site, eg. `http://zhaoyuxiang.cn/blog`
+baseurl: "/Okita-kin.github.io" # the prefix of your site uri, eg. `/bohu-jekyll-theme` or just one slash `/`
+#timezone: Asia/Shanghai
+description: 身不动 能否退却黑暗 花与水
+# Your information
+email: akashikin@outlook.com
+author: Okita kin #yourname #天道总司
+place:  #杭州
+domain:  #互联网
+company:  #Jeeyoo
+position:  #Technical Support
+school: Huazhong University of Science and Technology #浙江科技学院
+major: Digital Media Technology #测控技术与仪器
+resume: "http://Okita-kin.github.io"
+profile: 即使没有记忆 即使没有明天 也一定会有办法的 #yourmotto #聪明在于勤奋，天才在于积累。
+twitter_username: 
+weibo_username:  尛亚子
+github_username:  Okita-kin
+
+# Comment Service (Disqus or 多说)
+#  choose one and un-comment the line to active it
+disqus_shortname:    
+# get one: https://disqus.com/admin/signup/
+# duoshuo_shortname: clark-zhao  
+# get one: http://duoshuo.com/create-site/
+
+permalink: /archivers/:title
+gems:
+ - jekyll-paginate
+ - jekyll-gist
+ - jemoji
+
+# Build settings
+paginate: 2
+paginate_path: "/page:num"
+
+highlighter: rouge
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

@@ -3,7 +3,7 @@ layout: post
 title: 对SLG一类游戏的分析
 date: 2017-10-26 00:28:00 +0300
 description: 读GameLook中《三大海外制作人支招：SLG游戏如何创造沉浸感的世界？》后，参照着此文以及其他资料自己尝试着写的分析. # Add post description (optional)
-img: h # Add image post (optional)
+img: ede6882f33b06a7098a0d2ad98e5a864_r.jpg # Add image post (optional)
 tags: [游戏策划] # add tag
 ---
 首先我想要引用原文的一句话——“在很多策略游戏里，人们印象最深的可能是大量的数据……不过，成功的额策略游戏除了在数值方面做的十分出色之外，还可以打造虚幻的世界，让玩家们沉浸其中。”正如其所言，一款能上得了世面的策略游戏在各个数值的设计方面都是有下很大功夫的。然而，能够深得玩家心并且能够让玩家一次又一次的玩下去那么便需要在重视数值的同时让这个游戏“活”起来。

@@ -1,33 +1,27 @@
-title: 冲田瑾
-description: > # this means to ignore newlines until "baseurl:"
-  身不动 能否退却黑暗 花与水
-permalink: ':title/'
-baseurl: "/Okita-kin.github.io" # the subpath of your site, e.g. /blog
-url: "https://Okita-kin.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-
-# Author Settings
-author: Okita kin # add your name
-author-img: 20151126204937_GmBMK0.jpg # add your photo
-about-author: 即使没有记忆 即使没有明天    也一定会有办法的 # add description
-twitter: # add your Twitter handle
-facebook: # add your Facebook handle
-github: Okita-kin # add your Github handle
-linkedin: # add your Linkedin handle
-email: akashikin@outlook.com # add your Email address
-
-# Disqus
-discus-identifier: mr-brown # add your discus identifier
-
-# Tracker
-analytics: # Google Analytics
-
-# Build Settings
-markdown: kramdown
-plugins:
-  - jekyll-sitemap
-  - jekyll-paginate
-
+# Site settings
+name: 冲田 瑾
+email: akashikin@outlook.com
+author: Okita kin
+url: https://Okita-kin.github.io
+resume_site: https://Okita-kin.github.io
+github: https://github.com/Okita-kin
+baseurl: ""  #根目录
+description: 身不动 能否退却黑暗 花与水
+motto: 即使没有记忆 即使没有明天 也一定会有办法的
+#motto: 如果生活欺骗了你，不要悲伤，不要哭泣。
+banner: 如果结果不如你所愿 就在尘埃落定前奋力一搏
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+excerpt_separator:  '<!-- more -->' #文章摘要
 paginate: 8
-paginate_path: "/page/:num"
-
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+paginate_path: "page:num"
+gems: [jekyll-paginate]
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+github_username: Okita-kin
+highlighter: rouge
+markdown: kramdown
+FB:
+  comments :
+    provider : disqus
+    disqus :
+        short_name : xiaokedada

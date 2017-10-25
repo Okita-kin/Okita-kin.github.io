@@ -1,27 +1,68 @@
-# Site settings
-name: 冲田 瑾
-email: akashikin@outlook.com
-author: Okita kin
-url: https://Okita-kin.github.io
-resume_site: https://Okita-kin.github.io
-github: https://github.com/Okita-kin
-baseurl: ""  #根目录
+# Basic
+title: 冲田 瑾
+subtitle: Okita-kin
 description: 身不动 能否退却黑暗 花与水
-motto: 即使没有记忆 即使没有明天 也一定会有办法的
-#motto: 如果生活欺骗了你，不要悲伤，不要哭泣。
-banner: 如果结果不如你所愿 就在尘埃落定前奋力一搏
-#permalink: /:categories/:year/:month/:day/:title/
-permalink: /:year/:month/:day/:title/
-excerpt_separator:  '<!-- more -->' #文章摘要
-paginate: 8
-paginate_path: "page:num"
-gems: [jekyll-paginate]
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
-github_username: Okita-kin
-highlighter: rouge
+# 头像里面的标题
+avatarTitle: kin
+# 头像里面的描述
+avatarDesc: 游戏策划·动画·漫画
+url: "http://Okita-kin.github.io"
+
+# Comment
+comment:
+    # disqus: leopard
+    duoshuo: stidio 
+
+# Social
+social:
+    weibo: 2565327220
+    github: Okita-kin
+    # twitter: 
+    mail: akashikin@outlook.com
+
+# 百度统计 
+# 使用博客模板请去掉或者更换 id 
+baidu:
+    id: 
+
+# Google Analytics
+# 使用博客模板请去掉或者更换 id
+ga:
+    id: 
+    host:   
+
+
+# ----------------- 上面的信息修改成你自己的 ---------------------------
+#
+#  _post/   文章目录
+#  _drafts/ 未发布的文章目录
+#  目录结构具体参考文档：http://jekyll.com.cn/docs/structure/
+#
+# --------------- 下面的信息可以自行选择是否修改 ------------------------
+
+
+permalink: /:year/:month/:title/
+# Format
 markdown: kramdown
-FB:
-  comments :
-    provider : disqus
-    disqus :
-        short_name : xiaokedada
+highlighter: rouge
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: clear #背景Mask
+
+# The blog button should not be removed.
+blog_button:
+    title: 主页
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: 存档, description: archive, url: '/archive'}   
+    - {title: 标签, description: tags, url: '/tags'}      
+    - {title: 关于, description: about, url: '/about'}      
+    
+
+# Pagination
+gems: [jekyll-paginate,jekyll-sitemap]
+paginate: 20
+paginate_path: "page/:num/"
+
+

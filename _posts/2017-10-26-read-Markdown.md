@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 《如何阅读一本书》读书笔记1
-date: 2017-10-26 13:29:00 +0300
+date: 2017-10-26 13:32:00 +0300
 description: 《如何阅读一本书》读书笔记1. # Add post description (optional)
 img: software.jpg # Add image post (optional)
 tags: [读书笔记] # add tag
